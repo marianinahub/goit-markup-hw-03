@@ -289,7 +289,7 @@ padding: 32px 0;
     margin-bottom: 72px;
 }
 
-ul.portfolio.list > li:first-child {
+.portfolio-item:first-child {
   width: calc((100% - 48px) / 3);
 }
 
