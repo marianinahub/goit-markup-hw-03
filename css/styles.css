@@ -270,9 +270,6 @@ overflow: hidden;
     justify-content: center;
 }
 
-.sales {
-    padding: 24px 0;
-}
 
 .tim {
 padding: 32px 0;
@@ -310,4 +307,8 @@ padding: 32px 0;
 
 .header-text.apps {
     margin-bottom: 8px;
+}
+
+.nav-item {
+    padding: 24px 0;
 }
