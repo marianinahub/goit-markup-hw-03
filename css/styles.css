@@ -289,7 +289,7 @@ padding: 32px 0;
     margin-bottom: 72px;
 }
 
-.portfolio-item:first-child {
+.portfolio-item {
   width: calc((100% - 48px) / 3);
 }
 
