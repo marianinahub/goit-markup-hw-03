@@ -87,7 +87,8 @@ img {
     border: none;
     background-color:#4d5ae5;
     border-radius: 4px;
-    cursor: pointer; 
+    cursor: pointer;
+    margin: 0 auto; 
 }
 
 .button:hover,
@@ -225,10 +226,8 @@ img {
 }
 
 .container {
- width: 1158px;
-    height: 72px;
-        margin: 0 auto;
-    padding: 0 15px;
+width: 1158px;
+padding: 0 15px;
 }
 
 .header {
@@ -317,3 +316,8 @@ padding: 32px 0;
 .nav-item {
     padding: 24px 0;
 }
+
+.title.one {
+    margin: 0 auto 32px auto;
+}
+
