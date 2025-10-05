@@ -131,14 +131,14 @@ img {
     color: #2E2F42;
 }
 
-.сonnard-footer {
+.footer {
     background-color: #2e2f42;
     color: #F4F4FD;
-    padding: 5px 0;
+    padding: 100px 0;
 }
 
 
-.link.logo.footer {
+.link.logo.сonnard-footer {
     display: inline-block;
     margin-bottom: 16px;
 }
