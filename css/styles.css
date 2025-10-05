@@ -34,6 +34,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .link:hover,
@@ -41,12 +42,22 @@ img {
     color: #404BBF;
 }
 
-.link.contacts {
+.link-contacts {
+    display: flex;
+    
     color: #434455;
+     font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding: 24px 0;
+    gap: 40px;
+    margin-left: auto;
 }
 
-.link.contacts:hover,
-.link.contacts:focus {
+.link-contacts:hover,
+.link-contacts:focus {
     color: #404BBF;
 }
 
@@ -97,12 +108,13 @@ img {
 }
 
 .link.logo {
-    display: flex;
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
+
+
 }
     .link.logo:hover,
     .link.logo:focus {
@@ -119,11 +131,12 @@ img {
     color: #2E2F42;
 }
 
-.footer {
+.сonnard-footer {
     background-color: #2e2f42;
     color: #F4F4FD;
-    padding: 100px 0;
+    padding: 5px 0;
 }
+
 
 .link.logo.footer {
     display: inline-block;
@@ -138,7 +151,6 @@ img {
 }
 
 .title {
-    font-family: sans-serif;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -171,14 +183,9 @@ img {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    font-family: "Raleway", sans-serif; 
-    font-weight: 700;                   
-    font-size: 18px;                    
-    line-height: 1.17;                  
+    display: flex;              
     letter-spacing: 0.03em;
-    margin-right: 76px;
+    margin-right: 74px;
     
 }
 
@@ -190,13 +197,6 @@ img {
 
 .contacts {
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    padding: 24px 0;
-    gap: 40px;
 }
 
 .section.three {
@@ -205,7 +205,6 @@ img {
 }
 
 .team.list {
-    background-color: #FFFFFF;
     display: flex;
     gap: 24px;
 }
@@ -216,18 +215,16 @@ img {
    border-radius: 0px 0px 4px 4px;
 }
 
-.header.container {
+.header-container {
     display: flex;
     align-items: center;
-    width: 1158px;
-    height: 72px;
-    margin: 0 auto;
-    padding: 0 15px;
+
 }
 
 .container {
 width: 1158px;
 padding: 0 15px;
+margin: 0 auto;
 }
 
 .header {
@@ -237,6 +234,7 @@ padding: 0 15px;
 .nav.list {
     display: flex;
     gap: 40px;
+    margin: 0 45px 0 0;
     
 }
 
@@ -247,8 +245,6 @@ padding: 0 15px;
 .page-nav {
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    padding: 24px 0;
 }
 
 .visually-hidden {
@@ -267,10 +263,6 @@ overflow: hidden;
 .benefits.list {
     display: flex;
     gap: 24px;
-    margin-top: 60px;
-    margin-bottom: 0;
-    padding: 0;
-    justify-content: center;
 }
 
 
@@ -313,11 +305,7 @@ padding: 32px 0;
     margin-bottom: 8px;
 }
 
-.nav-item {
-    padding: 24px 0;
-}
-
 .title.one {
-    margin: 0 auto 32px auto;
+    margin: 0 auto 48px auto;
 }
 
